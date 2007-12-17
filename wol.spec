@@ -10,7 +10,6 @@ Url: http://ahh.sourceforge.net/wol/
 License : GPL
 Group: Networking/Other
 Source: %{name}-%{version}.tar.bz2
-Buildroot: %_tmppath/%name-%version-buildroot
 
 %description
 wol implements Wake On LAN functionality in a small program. 
