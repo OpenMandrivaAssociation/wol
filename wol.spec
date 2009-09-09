@@ -1,6 +1,6 @@
 %define name wol
 %define version 0.7.1
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary: Wake On LAN client
 Name: %name
