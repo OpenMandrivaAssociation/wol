@@ -55,3 +55,36 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/man/man1/*
 
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.7.1-6mdv2010.0
++ Revision: 434969
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.7.1-5mdv2009.0
++ Revision: 262124
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.7.1-4mdv2009.0
++ Revision: 256341
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 0.7.1-2mdv2008.1
++ Revision: 129443
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import wol
+
+
+* Tue Aug 16 2005 Emmanuel Blindauer <mdk@agat.net> 0.7.1-2mdk
+- yearly rebuild
+
+* Fri Aug 13 2004 Emmanuel Blindauer <mdk@agat.net> 0.7.1-1mdk
+- initial package
+
+
+
