@@ -37,8 +37,6 @@ rm -rf $RPM_BUILD_ROOT
 %find_lang %{name}
 
 
-%post
-%_install_info %{name}.info
 
 %postun
 %_remove_install_info %{name}.info
