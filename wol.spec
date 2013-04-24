@@ -38,8 +38,6 @@ rm -rf $RPM_BUILD_ROOT
 
 
 
-%postun
-%_remove_install_info %{name}.info
 
 %clean
 rm -rf $RPM_BUILD_ROOT
