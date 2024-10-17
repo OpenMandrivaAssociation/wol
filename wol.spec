@@ -6,7 +6,7 @@ Summary: Wake On LAN client
 Name: %name
 Version: %version
 Release: %release
-Url: http://ahh.sourceforge.net/wol/
+Url: https://ahh.sourceforge.net/wol/
 License : GPL
 Group: Networking/Other
 Source: %{name}-%{version}.tar.bz2
