@@ -12,6 +12,11 @@ Group: Networking/Other
 Source: %{name}-%{version}.tar.bz2
 Buildroot: %_tmppath/%name-%version-buildroot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 wol implements Wake On LAN functionality in a small program. 
 It wakes up hardware that is Magic Packet compliant.
